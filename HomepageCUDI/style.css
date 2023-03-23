@@ -345,6 +345,7 @@ a:hover, a:focus {
   width: 20px;
   border-bottom: 4px solid #00000000;
 }
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
@@ -370,13 +371,13 @@ a:hover, a:focus {
   }
   .navbar-custom .nav > li > a,
   .navbar-custom .navbar-toggle {
-    color: #fafafa;
+    color: rgb(185, 183, 223);
   }
   .navbar-custom .nav li.active a {
-    color: #ffe400;
+   color: rgb(185, 183, 223);
   }
   .navbar-custom .nav > li > a:hover::before {
-    border-bottom-color: #ffe400;
+    border-bottom-color: #006aff;
   }
 }
 
@@ -390,7 +391,7 @@ a:hover, a:focus {
 
 .navbar-custom a {
   font-weight: 600;
-  color: rgb(185, 183, 223);;
+  color: rgb(185, 183, 223);
 }
 
 @media (min-width: 768px) {
@@ -405,7 +406,7 @@ a:hover, a:focus {
     color: rgb(185, 183, 223);
   }
   .navbar-custom.top-nav-collapse .nav li.active a {
-   color: #fafafa;
+    color: rgb(185, 183, 223);
   }
   .navbar-custom.top-nav-collapse .nav > li > a:hover::before {
     border-bottom-color: #006aff;
