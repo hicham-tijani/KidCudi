@@ -349,7 +349,7 @@ a:hover, a:focus {
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
-    background: 0 0;
+   background:hsl(240, 38%, 13%);  
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -o-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
