@@ -343,7 +343,7 @@ a:hover, a:focus {
   bottom: 10px;
   left: 15px;
   width: 20px;
-  border-bottom: 4px solid #000;
+  border-bottom: 4px solid #00000000;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -383,7 +383,7 @@ a:hover, a:focus {
 @media (min-width: 768px) {
   .nav-custom.top-nav-collapse {
     padding: 0;
-    background: #00000000;
+    background: #000;
     border-bottom: rgba(255, 255, 255, 0.2);
   }
 }
@@ -402,10 +402,10 @@ a:hover, a:focus {
     color: rgb(185, 183, 223);
   }
   .navbar-custom.top-nav-collapse .nav > li > a {
-    color: #fafafa;
+    color: rgb(185, 183, 223);
   }
   .navbar-custom.top-nav-collapse .nav li.active a {
-   color: rgb(185, 183, 223);
+   color: #fafafa;
   }
   .navbar-custom.top-nav-collapse .nav > li > a:hover::before {
     border-bottom-color: #006aff;
