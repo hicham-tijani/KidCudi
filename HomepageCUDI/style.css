@@ -396,19 +396,19 @@ a:hover, a:focus {
 @media (min-width: 768px) {
   .navbar-custom.top-nav-collapse {
     padding: 10px 0;
-    background: #000;
+    background:hsl(240, 38%, 13%);
   }
   .navbar-custom.top-nav-collapse .navbar-brand {
-    color: #ffe400;
+    color: rgb(185, 183, 223);
   }
   .navbar-custom.top-nav-collapse .nav > li > a {
     color: #fafafa;
   }
   .navbar-custom.top-nav-collapse .nav li.active a {
-    color: #ffe400;
+   color: rgb(185, 183, 223);
   }
   .navbar-custom.top-nav-collapse .nav > li > a:hover::before {
-    border-bottom-color: #ffe400;
+    border-bottom-color: #006aff;
   }
 }
 
