@@ -379,6 +379,12 @@ a:hover, a:focus {
   .navbar-custom .nav > li > a:hover {
     border-bottom-color: #006aff;
   }
+    
+    iframe{
+    width: 100%;
+    height: 320px;
+  }
+	
 }
 
 @media (min-width: 768px) {
