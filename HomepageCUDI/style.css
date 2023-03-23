@@ -383,7 +383,7 @@ a:hover, a:focus {
 @media (min-width: 768px) {
   .nav-custom.top-nav-collapse {
     padding: 0;
-    background: #000;
+    background: #00000000;
     border-bottom: rgba(255, 255, 255, 0.2);
   }
 }
